@@ -11,35 +11,35 @@ function Portfolio() {
 
         <div className="box">
             <img src="images/marketplace.png" alt=""/>
-            <h3> project 01 </h3>
+            <h3> MarketPlace </h3>
             <div className="icons">
-                <a href="#" className="fas fa-link"></a>
-                <a href="#" className="fas fa-share"></a>
-                <a href="#" className="fas fa-search"></a>
+                <a href="https://marketplace-estore.herokuapp.com/" className="fas fa-link"></a>
+                <a href="#" className="fas fa-info-circle"></a>
+                <a href="https://github.com/legend19410/marketplace" className="fab fa-github"></a>
             </div>
         </div>
 
         <div className="box">
-            <img src="images/img-2.jpg" alt=""/>
-            <h3> project 02 </h3>
+            <img src="images/prms_img.png" alt=""/>
+            <h3> JCF Prms </h3>
             <div className="icons">
-                <a href="#" className="fas fa-link"></a>
-                <a href="#" className="fas fa-share"></a>
-                <a href="#" className="fas fa-search"></a>
+                <a href="https://jcf-resource-manager.herokuapp.com/" className="fas fa-link"></a>
+                <a href="#" className="fas fa-info-circle"></a>
+                <a href="https://github.com/legend19410/prmsfrontend" className="fab fa-github"></a>
             </div>
         </div>
 
         <div className="box">
-            <img src="images/img-3.jpg" alt=""/>
-            <h3> project 03 </h3>
+            <img src="images/groceryscape_img.png" alt=""/>
+            <h3> GroceryScape </h3>
             <div className="icons">
-                <a href="#" className="fas fa-link"></a>
-                <a href="#" className="fas fa-share"></a>
-                <a href="#" className="fas fa-search"></a>
+                <a href="https://groceryscape.web.app/" className="fas fa-link"></a>
+                <a href="#" className="fas fa-info-circle"></a>
+                <a href="https://github.com/legend19410/online-grocery-store-restaurant" className="fab fa-github"></a>
             </div>
         </div>
 
-        <div className="box">
+        {/* <div className="box">
             <img src="images/img-4.jpg" alt=""/>
             <h3> project 04 </h3>
             <div className="icons">
@@ -67,7 +67,7 @@ function Portfolio() {
                 <a href="#" className="fas fa-share"></a>
                 <a href="#" className="fas fa-search"></a>
             </div>
-        </div>
+        </div> */}
 
     </div>
 

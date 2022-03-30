@@ -1,6 +1,7 @@
 import React from 'react'
 // import './styles/About.css';
 import styles from './styles/About.module.css'
+import pdf from '../milton_resume.pdf'
 
 function About() {
   return (
@@ -15,7 +16,10 @@ function About() {
         <div className={styles.skills}>
                  <div className={styles.box}>
                      <p>
-                     I Enjoy Writing Software Solutions To Solve Complex Problems. I Am A Very Fast Learner Who Can Learn Multiple Technoligical Tools To Complete Software Projects That I Set Out To Do. I Can Work Pretty Well In Teams And Just As Well On My Own.
+                     I am mostly proficient in react js, html and css for the frontend and sping boot, flask and mysql for the backend. 
+                     Moveover, I am equally passionate about both backend and frontend development.
+                      Most tools or tech that I have learnt, I try to implement in various projects. 
+                      Hence, <a style={{textDecoration:"underline"}} href='#portfolio'>check out my projects</a>  to see what I have done.
                      </p>
                     <p> <span className={styles.attribute}> age : </span> <span className={styles.value}>25</span> </p>
                     <p> <span className={styles.attribute}> gender : </span> <span className={styles.value}>male</span> </p>
@@ -60,6 +64,10 @@ function About() {
                 <div className={styles.bar}> <span className={styles.javaBar}></span> </div>
             </div>
             <div className={styles.progress}>
+                <h3> OOP <span> 90% </span> </h3>
+                <div className={styles.bar}> <span className={styles.oopBar}></span> </div>
+            </div>
+            <div className={styles.progress}>
                 <h3> Spring Boot <span> 85% </span> </h3>
                 <div className={styles.bar}> <span className={styles.springBar}></span> </div>
             </div>
@@ -77,11 +85,11 @@ function About() {
             </div>
             
         </div>
-    
+                
         </div>
-    
+         
     </div>
-    
+            <a href={pdf} className='btn' download>Download</a>
     </section>
   )
 }

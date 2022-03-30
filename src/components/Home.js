@@ -12,8 +12,9 @@ function Home() {
                 <p className={styles.info}> A fullstack software developer </p>
                 <p className={styles.text}> 
                         I enjoy writing software solutions to solve complex problems.
-                        I am a very fast learner who can learn multiple technoligical tools to complete software projects that I set out to do.
-                        I can work pretty well in teams and just as well on my own.
+                        I am a very fast learner who can learn multiple technoligical tools in quick time 
+                        to complete software projects that I undertake.
+                        I can work very well in teams and just as well on my own.
                 </p>
                 <a href="#about" className='btn'>about me</a>
             </div>
